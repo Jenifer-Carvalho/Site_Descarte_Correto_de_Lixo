@@ -16,7 +16,8 @@ body {
   background: #2E7D32;
   background: linear-gradient(90deg, rgba(46, 125, 50, 1) 42%, rgba(200, 230, 201, 1) 100%);
   height: 100%;
-  font-family:"Source Code Pro", monospace; ;
+  font-family: "Source Code Pro", monospace;
+  ;
 }
 
 body * {
@@ -28,14 +29,14 @@ body * {
   margin: 20px auto 0px;
 }
 
-#container_links{
+#container_links {
   max-width: 480px;
   margin: 20px auto 0px;
 }
 
 /* profile */
 #imagem {
-  text-align: center; 
+  text-align: center;
 }
 
 #imagem img {
@@ -93,39 +94,54 @@ footer {
   margin: 20px auto 0px;
   font-size: 12px;
 }
-footer p{
+
+footer p {
   text-align: justify;
 }
 
-#assinatura{
+#assinatura {
   text-align: center;
   padding-top: 10px;
 }
 
 /* Responsividade */
-@media (min-width: 480px){
-#container,
-#container_links,
-footer {
-  width: 90%;
-  margin: 16px auto;
-}
+@media (min-width: 480px) {
+  body {
+    min-height: 100vh;
+  }
 
-.texto {
-  text-align: left;
-  font-size: 14px;
-  line-height: 22px;
-}
+  #container,
+  #container_links,
+  footer {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
 
-#imagem img {
-  width: 96px;
-}
+  #imagem img {
+    width: 80px;
+  }
 
-ul li a {
-  padding: 12px;
-  font-size: 14px;
+
+  .texto,
+  footer p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+
+  ul {
+    padding: 12px 0;
+  }
+
+  ul li a {
+    width: 100%;
+    padding: 14px;
+    font-size: 14px;
+  }
 }
-} 
 
 @media (min-width: 600px) {
   #container {
@@ -163,5 +179,3 @@ ul li a {
     font-size: 16px;
   }
 }
-
-
