@@ -36,4 +36,4 @@ O descarte incorreto de lixo causa impactos ambientais, sociais e urbanos. Este 
 
 ## 🔗 Panfleto para Visualização
 
-
+➡️[Panfleto|Descarte Correto de Lixo](assets/panfleto_descarte_lixo.pdf)
