@@ -102,5 +102,66 @@ footer p{
   padding-top: 10px;
 }
 
+/* Responsividade */
+@media (min-width: 480px){
+#container,
+#container_links,
+footer {
+  width: 90%;
+  margin: 16px auto;
+}
+
+.texto {
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#imagem img {
+  width: 96px;
+}
+
+ul li a {
+  padding: 12px;
+  font-size: 14px;
+}
+} 
+
+@media (min-width: 600px) {
+  #container {
+    max-width: 600px;
+  }
+
+  #container_links {
+    max-width: 500px;
+  }
+
+  .texto {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  #imagem img {
+    width: 110px;
+  }
+}
+
+@media (min-width: 900px) {
+  #container {
+    max-width: 700px;
+  }
+
+  #container_links {
+    max-width: 480px;
+  }
+
+  .texto {
+    font-size: 16px;
+  }
+
+  ul li a {
+    font-size: 16px;
+  }
+}
 
 
