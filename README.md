@@ -9,11 +9,11 @@ O objetivo principal é **facilitar o acesso da população a informações conf
 - Promover a **conscientização ambiental**
 - Reunir e divulgar **sites gratuitos e oficiais**
 - Ajudar a população a encontrar:
-  - ♻️ Ecopontos
-  - 🗑️ Coleta seletiva
-  - 🏭 Locais adequados para descarte de resíduos específicos
+  - Ecopontos
+  - Coleta seletiva
+  - Locais adequados para descarte de resíduos específicos
 
-## 🔗 Conteúdo do Site
+## 💻 Conteúdo do Site
 
 O site reúne links e informações de plataformas que permitem:
 - Localizar ecopontos próximos
@@ -33,7 +33,6 @@ O descarte incorreto de lixo causa impactos ambientais, sociais e urbanos. Este 
 
 - HTML
 - CSS
-
 
 ## 🔗 Panfleto para Visualização
 
